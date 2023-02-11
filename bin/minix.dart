@@ -1,8 +1,8 @@
-import 'classicSolution.dart';
-import 'minixSolution.dart';
+import 'package:minix/minixSolution.dart';
+import 'package:minix/classicSolution.dart';
 
 void main(List<String> arguments) {
-  classicSolution();
+  ClassicSolution();
 
-  minixSolution();
+  MinixSolution();
 }

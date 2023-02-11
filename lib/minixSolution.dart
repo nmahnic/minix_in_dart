@@ -1,24 +1,27 @@
-void minixSolution() {
-  final delfin = Delfin("delfin");
-  delfin.acciones();
+class MinixSolution {
 
-  final murcielago = Murcielago("murcielago");
-  murcielago.acciones();
+  MinixSolution() {
+    final delfin = Delfin("delfin");
+    delfin.acciones();
 
-  final gato = Gato("gato");
-  gato.acciones();
+    final murcielago = Murcielago("murcielago");
+    murcielago.acciones();
 
-  final paloma = Paloma("paloma");
-  paloma.acciones();
+    final gato = Gato("gato");
+    gato.acciones();
 
-  final pato = Pato("pato");
-  pato.acciones();
+    final paloma = Paloma("paloma");
+    paloma.acciones();
 
-  final tiburon = Tiburon("tiburon");
-  tiburon.acciones();
+    final pato = Pato("pato");
+    pato.acciones();
 
-  final pezVolador = PezVolador("pez volador");
-  pezVolador.acciones();
+    final tiburon = Tiburon("tiburon");
+    tiburon.acciones();
+
+    final pezVolador = PezVolador("pez volador");
+    pezVolador.acciones();
+  }
 }
 
 

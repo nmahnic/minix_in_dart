@@ -1,24 +1,27 @@
-void classicSolution() {
-  final delfin = Delfin("delfin");
-  delfin.acciones();
+class ClassicSolution {
 
-  final murcielago = Murcielago("murcielago");
-  murcielago.acciones();
+  ClassicSolution() {
+    final delfin = Delfin("delfin");
+    delfin.acciones();
 
-  final gato = Gato("gato");
-  gato.acciones();
+    final murcielago = Murcielago("murcielago");
+    murcielago.acciones();
 
-  final paloma = Paloma("paloma");
-  paloma.acciones();
+    final gato = Gato("gato");
+    gato.acciones();
 
-  final pato = Pato("pato");
-  pato.acciones();
+    final paloma = Paloma("paloma");
+    paloma.acciones();
 
-  final tiburon = Tiburon("tiburon");
-  tiburon.acciones();
+    final pato = Pato("pato");
+    pato.acciones();
 
-  final pezVolador = PezVolador("pez volador");
-  pezVolador.acciones();
+    final tiburon = Tiburon("tiburon");
+    tiburon.acciones();
+
+    final pezVolador = PezVolador("pez volador");
+    pezVolador.acciones();
+  }
 }
 
 abstract class Animal {
